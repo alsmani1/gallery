@@ -1,0 +1,23 @@
+body{
+  font_size: 150%;
+}
+header{
+  background: #E3E3E3;
+}
+h1{
+  text_align: center;
+  font_color: #FFFFFF;
+}
+h2{
+  font_color: #FF0000
+}
+section{
+  background: #E2E2E2;
+}
+link{
+  background: #666666;
+  font_color: #FFFFFF;
+}
+img{
+  float: none;
+}
