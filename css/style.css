@@ -44,19 +44,6 @@ div{
   margin: 5px;
   padding: 2px;
 }
-    @media screen and (min-width:998px){
-      div{
-        width: 30%;
-      margin:0px;
-      padding:0px;
-
-    }
-  div img{
-    width:100%;
-    border:solid blue;
-    border-radius :5%;
-  }
-}
 
 @media screen and (min-width:772px){
     div{
@@ -72,7 +59,19 @@ div{
             max-height: 30%;
   }
 }
+    @media screen and (min-width:998px){
+      div{
+        width: 30%;
+      margin:0px;
+      padding:0px;
 
+    }
+  div img{
+    width:100%;
+    border:solid blue;
+    border-radius :5%;
+  }
+}
 
 
 
