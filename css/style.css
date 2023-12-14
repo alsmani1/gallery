@@ -30,32 +30,51 @@ p{
 }
 
 div img{
-    width:150px;
-    height: 150px;
+    width:100%;
     display:block;
     margin:auto;
+  border:solid blue;
+    border-radius :5%;
+  
 }
 
 div{
   display: inline-block;
-  width: 24%;
+  width: 96%;
   margin: 5px;
   padding: 2px;
-}
-@media screen and (min-width:998px) {
-    div{
-        width: 30%;
-    }
-    
 }
 @media screen and (min-width:772px){
     div{
         width: 45%;
+      margin:0px;
+      padding:0px;
+
     }
-    div img{
-        height: 30%;
-    }
+  div img{
+    width:100%;
+    border:solid blue;
+    border-radius :5%;
+            max-height: 30%;
+  }
 }
+    @media screen and (min-width:998px){
+      div{
+        width: 30%;
+      margin:0px;
+      padding:0px;
+
+    }
+  div img{
+    width:100%;
+    border:solid blue;
+    border-radius :5%;
+  }
+}
+
+
+
+
 
 
 
